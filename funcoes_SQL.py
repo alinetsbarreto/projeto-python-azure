@@ -2,7 +2,7 @@ import pyodbc
 import lib
 
 #Conectar com SQL server
-conn = pyodbc.connect("Driver={ODBC Driver 18 for SQL Server};Server=tcp:sql-aline-datalake.database.windows.net,1433;Database=aline-dadoscsv;Uid=administrador;Pwd=JAh12A4r;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;")
+conn = pyodbc.connect("Driver={ODBC Driver 18 for SQL Server};Server=tcp:,<SERVER>,1433;Database= <DATABASE>;Uid= <USER> ;Pwd= <SENHA> ;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;")
 cursor = conn.cursor()   
 
 #Função para cadastrar clientes na tabela "clientes" do banco de dados
