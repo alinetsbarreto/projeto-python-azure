@@ -11,5 +11,5 @@ def espera(segundos = 3):  #função para esperar 3 segundos a informação na t
 
 def mensagem(mensagem, segundos = 3):
     limpar_tela()   #função de limpar a tela
-    print(mensagem) #printa msg definida quando utilizado essa função
+    print(mensagem) #imprimir msg definida quando utilizado essa função
     espera(segundos) #função de esperar 3 segundos
